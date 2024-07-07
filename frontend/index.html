@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script type="module" src="./script/script.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Frontendmentor | Contact form</title>
+  </head>
+  <body>
+    <main class="page-container">
+      <form action="post" class="contact-form">
+        <h1 class="form-title">Contact Us</h1>
+        <div class="contact-form__user-info">
+          <div class="user-info__first-name-info">
+            <label for="first-name">First name *</label>
+            <input
+              type="text"
+              name="first-name"
+              class="user-info__first-name-input"
+            />
+          </div>
+          <div class="user-info__last-name-info">
+            <label for="last-name">Last name *</label>
+            <input
+              type="text"
+              name="last-name"
+              class="user-info__last-name-input"
+            />
+          </div>
+        </div>
+
+        <div class="contact-form__user-email">
+          <label for="email">Email Adress *</label>
+          <input
+            type="email"
+            name="email"
+            class="contact-form__user-email-input"
+          />
+        </div>
+
+        <div class="contact-form__query-type-info">
+          <label for="query-type">Query Type*</label>
+          <div class="query-type__query-type-container">
+            <div class="query-type__select-info">
+              <input
+                type="radio"
+                name="query-type"
+                class="query-type__query-type-select"
+              />
+              <label for="general-enquiry">General Enquiry</label>
+            </div>
+
+            <div class="query-type__select-info">
+              <input
+                type="radio"
+                name="query-type"
+                class="query-type__query-type-select"
+              />
+              <label for="support-request">Support Request</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form__message-section">
+          <label for="message">Message *</label>
+          <textarea
+            name="message"
+            id="message"
+            class="message-section__message-input"
+          ></textarea>
+        </div>
+
+        <div class="contact-form__consent-section">
+          <input type="checkbox" name="consent" />
+          <label for="consent">
+            I consent to being contacted by the team *
+          </label>
+        </div>
+
+        <input type="submit" value="Submit" class="contact-form__submit-btn" />
+      </form>
+    </main>
+  </body>
+</html>
