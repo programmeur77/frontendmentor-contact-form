@@ -26,7 +26,7 @@ body .page-container .contact-form {
   width: fit-content;
   padding: 3.5rem;
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
   font-size: 10px;
