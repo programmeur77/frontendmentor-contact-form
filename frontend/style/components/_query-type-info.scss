@@ -1,0 +1,9 @@
+&__query-type-info {
+  display: grid;
+  gap: 0.5rem;
+}
+
+& .query-type {
+  @import './query-type-container';
+  @import './select-info';
+}
