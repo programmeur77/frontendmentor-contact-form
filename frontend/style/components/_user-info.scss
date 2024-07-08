@@ -1,0 +1,11 @@
+&__user-info {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+& .user-info {
+    @import './name-info';
+    @import './name-input';
+}
