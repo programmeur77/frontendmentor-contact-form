@@ -29,9 +29,27 @@ body .page-container .contact-form {
   gap: 1.5rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
+  font-size: 10px;
 }
 body .page-container .contact-form .form-title {
   font-size: 1.2rem;
+}
+body .page-container .contact-form__user-info {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+body .page-container .contact-form .user-info__name-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+body .page-container .contact-form .user-info__name-input {
+  width: 12rem;
+  padding: 0.4rem;
+  border: 1px solid hsl(186, 15%, 59%);
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
