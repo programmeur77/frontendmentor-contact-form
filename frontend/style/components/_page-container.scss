@@ -1,0 +1,8 @@
+.page-container {
+  width: 90%;
+  height: 90%;
+  background-color: $green-200;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 5px 5px 2px $grey-500;
+}
