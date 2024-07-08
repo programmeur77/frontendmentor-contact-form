@@ -51,5 +51,16 @@ body .page-container .contact-form .user-info__name-input {
   border: 1px solid hsl(186, 15%, 59%);
   border-radius: 5px;
 }
+body .page-container .contact-form__user-email {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+body .page-container .contact-form__email-input {
+  padding: 0.4rem;
+  border: 1px solid hsl(186, 15%, 59%);
+  border-radius: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
