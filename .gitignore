@@ -4,3 +4,6 @@
 # NPM config files and folders
 package-lock.json
 node_modules
+
+# SASS mapped File
+./style/style.css.map
