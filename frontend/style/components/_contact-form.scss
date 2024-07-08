@@ -5,6 +5,8 @@
   gap: 1.5rem;
   background-color: $white;
   border-radius: 10px;
-
+  font-size: 10px;
   @import './form-title';
+
+  @import './user-info';
 }
