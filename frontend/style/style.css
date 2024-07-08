@@ -10,6 +10,7 @@ body {
   height: 100dvh;
   font-family: "Karla", sans-serif;
   font-size: 16px;
+  color: hsl(187, 24%, 22%);
   display: grid;
   place-items: center;
 }
@@ -19,7 +20,18 @@ body .page-container {
   background-color: hsl(148, 38%, 91%);
   display: grid;
   place-items: center;
-  box-shadow: 0 5px 5px 2px hsl(186, 15%, 59%);
+  box-shadow: 0 3px 5px 3px hsl(186, 15%, 59%);
+}
+body .page-container .contact-form {
+  width: fit-content;
+  padding: 3.5rem;
+  display: grid;
+  gap: 1.5rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+body .page-container .contact-form .form-title {
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
