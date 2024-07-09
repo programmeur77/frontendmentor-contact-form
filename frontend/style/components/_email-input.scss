@@ -2,4 +2,16 @@
   padding: 0.4rem;
   border: 1px solid $grey-500;
   border-radius: 5px;
+  outline: none;
+  font-size: 0.8rem;
+  color: $green-600;
+  caret-color: $grey-500;
+
+  &:focus {
+    border: 1px solid $green-600;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
