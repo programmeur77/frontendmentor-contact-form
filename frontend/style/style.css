@@ -107,5 +107,15 @@ body .page-container .contact-form__consent-section {
   gap: 0.5rem;
   align-items: center;
 }
+body .page-container .contact-form__submit-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(169, 82%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
