@@ -101,6 +101,10 @@ body .page-container .contact-form .query-type__select-info {
   gap: 0.5rem;
   accent-color: hsl(169, 82%, 27%);
 }
+body .page-container .contact-form .query-type__select-info--selected {
+  background-color: hsl(148, 38%, 91%);
+  border: 1px solid hsl(169, 82%, 27%);
+}
 body .page-container .contact-form__message-section {
   display: flex;
   flex-direction: column;
@@ -128,6 +132,7 @@ body .page-container .contact-form__consent-section {
   gap: 0.5rem;
   align-items: center;
   accent-color: hsl(169, 82%, 27%);
+  cursor: pointer;
 }
 body .page-container .contact-form__submit-btn {
   width: 100%;
@@ -138,6 +143,11 @@ body .page-container .contact-form__submit-btn {
   color: hsl(0, 0%, 100%);
   font-size: 0.8rem;
   cursor: pointer;
+  position: relative;
+  transition: background-color 0.5s ease-in-out;
+}
+body .page-container .contact-form__submit-btn:hover {
+  background-color: #084f42;
 }
 
 /*# sourceMappingURL=style.css.map */
