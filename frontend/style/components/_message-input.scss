@@ -1,0 +1,16 @@
+&__message-input {
+  width: 100%;
+  height: 70px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid $grey-500;
+  resize: none;
+  font-family: $font-family-karla;
+  font-size: 0.8rem;
+  color: $grey-500;
+  outline: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
