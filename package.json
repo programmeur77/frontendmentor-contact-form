@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./frontend/style/main.scss ./frontend/style/style.css"
+    "sass": "sass --watch ./frontend/style/main.scss ./frontend/style/style.css",
+    "autoprefixer": "postcss --watch ./frontend/style/style.css --use autoprefixer -d ./frontend/style/prefixed/",
+    "minify-css": "css-minify -d ./frontend/style/prefixed/ -o ./frontend/style/minified/"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/programmeur77/frontendmentor-contact-form#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-minify": "^2.0.0",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
     "sass": "^1.77.6"
   }
 }
