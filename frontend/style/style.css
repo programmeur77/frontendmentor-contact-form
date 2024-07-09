@@ -50,6 +50,16 @@ body .page-container .contact-form .user-info__name-input {
   padding: 0.4rem;
   border: 1px solid hsl(186, 15%, 59%);
   border-radius: 5px;
+  outline: none;
+  caret-color: hsl(186, 15%, 59%);
+  font-size: 0.8rem;
+  color: hsl(169, 82%, 27%);
+}
+body .page-container .contact-form .user-info__name-input:hover {
+  cursor: pointer;
+}
+body .page-container .contact-form .user-info__name-input:focus {
+  border: 1px solid hsl(169, 82%, 27%);
 }
 body .page-container .contact-form__user-email {
   width: 100%;
@@ -61,6 +71,16 @@ body .page-container .contact-form__email-input {
   padding: 0.4rem;
   border: 1px solid hsl(186, 15%, 59%);
   border-radius: 5px;
+  outline: none;
+  font-size: 0.8rem;
+  color: hsl(169, 82%, 27%);
+  caret-color: hsl(186, 15%, 59%);
+}
+body .page-container .contact-form__email-input:focus {
+  border: 1px solid hsl(169, 82%, 27%);
+}
+body .page-container .contact-form__email-input:hover {
+  cursor: pointer;
 }
 body .page-container .contact-form__query-type-info {
   display: grid;
