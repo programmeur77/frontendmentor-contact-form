@@ -7,4 +7,10 @@
   color: $white;
   font-size: 0.8rem;
   cursor: pointer;
+  position: relative;
+  transition: background-color 0.5s ease-in-out;
+
+  &:hover {
+    background-color: darken($green-600, 10%);
+  }
 }
