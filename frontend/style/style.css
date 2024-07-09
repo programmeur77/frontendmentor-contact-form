@@ -80,5 +80,25 @@ body .page-container .contact-form .query-type__select-info {
   align-items: center;
   gap: 0.5rem;
 }
+body .page-container .contact-form__message-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+body .page-container .contact-form .message-section__message-input {
+  width: 100%;
+  height: 70px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid hsl(186, 15%, 59%);
+  resize: none;
+  font-family: "Karle", sans-serif;
+  font-size: 0.8rem;
+  color: hsl(186, 15%, 59%);
+  outline: none;
+}
+body .page-container .contact-form .message-section__message-input::-webkit-scrollbar {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
