@@ -8,4 +8,9 @@
   align-items: center;
   gap: 0.5rem;
   accent-color: $green-600;
+
+  &--selected {
+    background-color: $green-200;
+    border: 1px solid $green-600;
+  }
 }
